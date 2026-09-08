@@ -9,8 +9,15 @@
     "start": "bash boot.sh"
   },
   "dependencies": {
+    "@prisma/composer": "0.16.0",
+    "@prisma/composer-prisma-cloud": "0.16.0",
+    "alchemy": "2.0.0-beta.74",
+    "effect": "4.0.0-rc.112",
     "next": "latest",
     "react": "latest",
     "react-dom": "latest"
+  },
+  "devDependencies": {
+    "prisma": "8.0.0-rc.12"
   }
 }
